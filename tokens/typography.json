@@ -1,0 +1,534 @@
+{
+  "desktop": {
+    "font": {
+      "family": {
+        "heading": {
+          "value": "{font family.roboto}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "body": {
+          "value": "{font family.roboto}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "regular",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "italic": {
+          "value": "italic",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "{font weight.regular}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "medium": {
+          "value": "{font weight.semibold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "bold": {
+          "value": "{font weight.bold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "size": {
+        "h1": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h2": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h3": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h4": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h5": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h6": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xs": {
+          "value": "{type scale.200-12}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      },
+      "line height": {
+        "xs": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.700-40}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      }
+    },
+    "web font": {
+      "family": {
+        "heading": {
+          "value": "{font family.space grotesk}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "body": {
+          "value": "{font family.space grotesk}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "regular",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "italic": {
+          "value": "italic",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "{font weight.regular}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "medium": {
+          "value": "{font weight.semibold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "bold": {
+          "value": "{font weight.bold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "size": {
+        "xs": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.900-56}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      },
+      "line height": {
+        "xs": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.700-40}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.900-56}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      }
+    }
+  },
+  "mobile": {
+    "font": {
+      "family": {
+        "heading": {
+          "value": "{font family.roboto}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "body": {
+          "value": "{font family.roboto}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "regular",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "italic": {
+          "value": "italic",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "{font weight.regular}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "medium": {
+          "value": "{font weight.semibold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "bold": {
+          "value": "{font weight.bold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "size": {
+        "h1": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h2": {
+          "value": 22,
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h3": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h4": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h5": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "h6": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xs": {
+          "value": "{type scale.200-12}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      },
+      "line height": {
+        "xs": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.700-40}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      }
+    },
+    "web font": {
+      "family": {
+        "heading": {
+          "value": "{font family.space grotesk}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "body": {
+          "value": "{font family.space grotesk}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "style": {
+        "normal": {
+          "value": "regular",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "italic": {
+          "value": "italic",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "weight": {
+        "regular": {
+          "value": "{font weight.regular}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "medium": {
+          "value": "{font weight.semibold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        },
+        "bold": {
+          "value": "{font weight.bold}",
+          "type": "fontFamily",
+          "prefix": "typography"
+        }
+      },
+      "size": {
+        "xs": {
+          "value": "{type scale.250-14}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.350-18}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.900-56}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      },
+      "line height": {
+        "xs": {
+          "value": "{type scale.300-16}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "sm": {
+          "value": "{type scale.400-20}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "md": {
+          "value": "{type scale.450-24}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "lg": {
+          "value": "{type scale.500-28}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "xl": {
+          "value": "{type scale.600-32}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "2xl": {
+          "value": "{type scale.700-40}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "3xl": {
+          "value": "{type scale.800-48}",
+          "type": "number",
+          "prefix": "typography"
+        },
+        "4xl": {
+          "value": "{type scale.900-56}",
+          "type": "number",
+          "prefix": "typography"
+        }
+      }
+    }
+  }
+}
